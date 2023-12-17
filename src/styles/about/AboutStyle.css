@@ -1,0 +1,140 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
+
+.heading{
+    position: relative;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: right;
+    left: 20%;
+    color: #383636;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+span{
+    color: var(--main-color);
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-content h3{
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    display: inline-block;
+    font-size: 2.6rem;
+    color: #555555;
+}
+
+.about-content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px; 
+    font-size: larger;
+    line-height: 30px;
+    color: rgb(119, 119, 119);
+    margin-top: 30px;
+}
+
+.btn-box.btns{
+    display: inline-block;
+    width: 30rem;
+    padding-left: 340px;
+    margin-left: -100px;
+    margin-top: -550px;
+     
+}
+
+.btn-box.btns img{
+    width: 450%;
+    height: 450px;
+}
+
+.about-p h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    color: #555;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-p2 h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    color: #555;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-p3 h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    color: #555;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-p p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px; 
+    line-height: 30px;
+    color: rgb(119, 119, 119);
+    margin-top: 30px;
+}
+.about-p2 p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px; 
+    line-height: 30px;
+    color: rgb(119, 119, 119);
+    margin-top: 30px;
+}
+.about-p3 p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px; 
+    line-height: 30px;
+    color: rgb(119, 119, 119);
+    margin-top: 30px;
+}
+
+.about-p {
+    padding-right: 740px;
+}
+.about-p h1{
+    padding-right: 475px;
+}
+.about-p2 {
+    padding-right: 740px;
+}
+.about-p2 h1{
+    padding-right: 475px;
+}
+.about-p3 {
+    padding-right: 740px;
+}
+.about-p3 h1{
+    padding-right: 475px;
+}
