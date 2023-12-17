@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage  from './view/component/landingpage/LandingPage.jsx'
 
 function App() {
   return (
     <div className="App">
-    <p>
-      Home
-    </p>
+      <LandingPage/>
     </div>
   );
 }

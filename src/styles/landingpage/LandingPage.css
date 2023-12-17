@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+main{
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    padding: 10px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+.nav-text{
+    margin-right: 40px;
+}
+#nav > p > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+
+#hero-section{
+    text-wrap:wrap;
+    text-align: left;
+    color: white;
+    background: url('../../assets/high-resolution.jpg');
+    padding: 300px 500px;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-section span{
+    color: rgb(221, 103, 30);
+}
+#hero-section h2{
+    font-size: 30px;
+}
+#hero-section h1{
+    font-size: 60px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 350px;
+}
+#about-vision-header{
+    display: flex;
+    flex-direction: column;
+}
+#clickers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clickers > h2{
+    margin-right: 15px;
+    font-size: 27px;
+}
+.headings{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+#about-heading > p{
+    margin-bottom: 90px;
+    font-size: 20px;
+}
+#clicked-text > h2{
+    font-size: 27px;
+}
+.clicked-text-head{
+    text-align: left;
+    font-size: 30px;
+}
+.vision-mission-header > p{
+    text-align: left;
+}
+.vision-mission{
+    display: flex;
+}
+.vision-mission-header{
+    margin-right: 100px;
+}
+
+.gallery > img{
+    height: 300px;
+}
+#gallery{
+    padding-top: 50px;
+    margin-bottom: 300px;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gallery-first > h2{
+    margin-bottom: 100px;
+}
+#gallery-first > p{
+    margin-bottom: 100px;
+}
+#sasi-intro{
+    background: url('../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg');
+    background-size: cover;
+    position: relative;
+    padding: 300px;
+}
+#text-sasi{
+    font-size: 20px;
+    color: whitesmoke;
+    width: 50vw;
+    background-color: transparent;
+    padding: 30px 30px;
+}
+#inner-sasi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inner-sasi > h2{
+    font-size: 100px;
+}
+#inner-sasi > h2 > span{
+    color: red;
+}
+#inner-sasi > img{
+    height: 90px;
+    margin-left: 20px;
+}
+#text-sasi > button{
+    padding: 20px;
+    background: red;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 15px;
+}
+#text-sasi > button :hover{
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#footer{
+    color: whitesmoke;
+    margin-top: 200px;
+    background: black;
+    
+}
+#first-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#second-column-footer{
+    display: flex;
+    flex-direction: column;
+}
+#third-column-footer{
+    display: flex;
+    flex-direction: column;
+}
+#first-column-footer > h4{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+#first-column-footer > p{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+#first-column-footer > div > button> img{
+    height: 3vh;
+    
+}
+#first-column-footer > div > button{
+    margin-right: 20px;
+    cursor:pointer;
+}
+#second-column-footer{
+    text-align: left;
+}
+#second-column-footer > h4{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+#second-column-footer > a {
+    margin: 10px 0px;
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+}
+#third-column-footer{
+    text-align: left;
+}
+#third-column-footer > h4{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+#third-column-footer > a {
+    margin: 10px 0px;
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.ScrollButton{
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#second-footer > hr{
+    margin: 0px 250px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+#second-footer > p{
+    padding-bottom: 30px;
+}
+
