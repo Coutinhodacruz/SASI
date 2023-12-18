@@ -8,7 +8,7 @@ const HomPage = () => {
       <section className="home">
         <header className="header">
         <div className="logo">
-          <Link to="home" spy={true} smooth={true} duration={500}>
+          <Link to="home" spy={true} smooth={true} duration={300}>
             <img src={sasi} alt="Logo" />
           </Link>
         </div>
