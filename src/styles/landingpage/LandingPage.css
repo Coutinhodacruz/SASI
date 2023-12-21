@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 main{
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
 }
 #nav-bar{
     display: flex;
@@ -11,9 +18,30 @@ main{
     background: white;
     padding: 10px;
 }
+
+/* #nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    z-index: 100;
+    transition: .3s;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar{
+  background: var(--bg-color);
+  height: 10%;
+} */
+
 #nav{
     display: flex;
     align-items: center;
+    position: relative;
+    margin-left: 45%;
 }
 .nav-text{
     margin-right: 40px;

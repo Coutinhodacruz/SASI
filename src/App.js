@@ -1,14 +1,18 @@
 import './App.css';
-import LandingPage  from './view/component/landingpage/LandingPage.jsx'
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
+// import LandingPage  from './view/component/landingpage/LandingPage.jsx'
 import About from './view/component/about/About';
 import HomPage from './view/component/homepage/HomPage';
+import Event from './view/component/event/Event';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
+      {/* <LandingPage/> */}
+      
       <HomPage />
       <About />
+      <Event />
     </div>
   );
 }

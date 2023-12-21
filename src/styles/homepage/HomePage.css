@@ -52,7 +52,7 @@
     width: 12%;
     height: 50px;
     border-radius: 15px;
-    background: #F8B864;
+    background: var(--main-color);
 }
 
 .logo{
@@ -80,7 +80,6 @@
 .header {
   background: var(--bg-color);
   height: 10%;
- 
 }
 
 .content{
@@ -113,7 +112,7 @@ h2{
 .content .cn{
     width: 170px;
     height: 60px;
-    background: #F8B864;
+    background: var(--main-color);
     border: none;
     margin-bottom: 10px;
     font-size: 18px;
@@ -139,13 +138,13 @@ h2{
 }
 
 .content .ch2{
-    color: #F8B864;
+    color: var(--main-color);
     font-size: 70px;
     font-family: 'Times New Roman';
 }
  
 .content .child{
-    color: #F8B864;
+    color: var(--main-color);
     font-size: 35px;
     
 }
