@@ -4,6 +4,13 @@ main{
     /* padding: 10px 50px; */
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
 }
 #nav-bar{
     display: flex;
@@ -21,10 +28,30 @@ main{
 #logo{
    margin-left: 150px
 }
+
+/* #nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    z-index: 100;
+    transition: .3s;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar{
+  background: var(--bg-color);
+  height: 10%;
+} */
+
 #nav{
     display: flex;
     align-items: center;
-    margin-left: auto;
+    position: relative;
+    margin-left: 45%;
 }
 .nav-text{
     margin-right: 70px;

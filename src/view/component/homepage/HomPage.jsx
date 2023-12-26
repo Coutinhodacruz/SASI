@@ -1,14 +1,17 @@
 import React from "react";
-import { Link } from 'react-scroll'
 import "../../../styles/homepage/HomePage.css";
+import { Link, animateScroll as scroll } from 'react-scroll';
+import HomePage from "../../../styles/homepage/HomePage.css";
 import sasi from "../../../assets/image/sasi.jpg";
+
 
 const HomPage = () => {
   return (
       <section className="home">
         <header className="header">
+          {/* <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div> */}
         <div className="logo">
-          <Link to="home" spy={true} smooth={true} duration={500}>
+          <Link to="home" spy={true} smooth={true} duration={300}>
             <img src={sasi} alt="Logo" />
           </Link>
         </div>
