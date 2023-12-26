@@ -1,7 +1,7 @@
 import React from "react";
 import hand from "../../../assets/image/hand.png";
 import help from "../../../assets/image/help.jpg";
-import DonateStyle from "../../../styles/donate/DonateStyle.css";
+import "../../../styles/donate/DonateStyle.css";
 import { FaWallet, FaUser, FaGift, FaCamera } from "react-icons/fa";
 
 const Donate = () => {

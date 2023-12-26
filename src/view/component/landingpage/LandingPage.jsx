@@ -1,4 +1,4 @@
-import {React, useState, Component} from 'react';
+import {React, useState} from 'react';
 import { Link } from 'react-router-dom';
 import Joshiverse from '../../../assets/joshiverse.jpeg'
 import ImageIcon from '../../../assets/WhatsApp Image 2023-12-14 at 00.35.27.jpeg'
