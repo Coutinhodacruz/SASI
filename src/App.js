@@ -1,27 +1,27 @@
 import './App.css';
+import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import HomPage from './view/component/homepage/HomPage';
 import LandingPage  from './view/component/landingpage/LandingPage.jsx'
 import About from './view/component/about/About';
-import HomPage from './view/component/homepage/HomPage';
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage/>
-      <HomPage />
-      <About />
-    </div>
+    
+    <Router>
+      <Routes>
+        <Route path='/' element={<LandingPage/>}/>
+        <Route path='/sasi' element={
+          <>
+            <HomPage/>
+            <About/>
+          </>
+        }>
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
 
 
-{/* <Router>
-    <Routes>
-      <Route path="/home" component={HomPage} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/donate" component={Donate} />
-      <Route path="/" component={LandingPage} />
-    </Routes>
-  </Router> */}

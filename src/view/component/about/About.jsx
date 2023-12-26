@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import AboutStyle from "../../../styles/about/AboutStyle.css";
+import React from "react";
+import "../../../styles/about/AboutStyle.css";
 import grow from "../../../assets/image/grow.jpg";
 
 const About = () => {

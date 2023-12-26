@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-scroll'
-import HomePage from "../../../styles/homepage/HomePage.css";
+import "../../../styles/homepage/HomePage.css";
 import sasi from "../../../assets/image/sasi.jpg";
 
 const HomPage = () => {
@@ -43,7 +43,7 @@ const HomPage = () => {
             <br />
           </p>
           <button className="cn">
-            <a href="#">Donate Now</a>
+            <a href="#d">Donate Now</a>
           </button>
         </div>
       </section>
