@@ -3,6 +3,7 @@
 main{
     /* padding: 10px 50px; */
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -14,9 +15,18 @@ main{
 #nav-bar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background: white;
-    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 2rem;
+    overflow:visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+#logo{
+   margin-left: 150px
 }
 
 /* #nav-bar{
@@ -44,28 +54,76 @@ main{
     margin-left: 45%;
 }
 .nav-text{
-    margin-right: 40px;
+    margin-right: 70px;
 }
-#nav > p > a{
+#nav >  a{
+    margin: 0 2rem;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     color: grey;
+}
+#nav >  a:hover{
+    color: black;
+}
+.nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: white;
+    border: none;
+    color: #000;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+#nav-burger{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+    z-index: 999;
+}
+#nav-burger a {
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    color: grey;
+    transition: color 0.3s;
+}
+
+#nav-burger a:hover {
+    color: black;
+}
+
+#nav-bar .nav-btn {
+    cursor: pointer;
+    font-size: 1.8rem;
 }
 
 #hero-section{
     text-wrap:wrap;
     text-align: left;
+    justify-content: center;
     color: white;
     background: url('../../assets/high-resolution.jpg');
-    padding: 300px 500px;
+    padding: 400px 400px;
     background-size:cover;
     position: relative;
     margin-bottom: 100px;
+    width: moz-fit-content;
 }
 #hero-section span{
     color: rgb(221, 103, 30);
 }
 #hero-section h2{
+    margin-left: 10px;
     font-size: 30px;
 }
 #hero-section h1{
@@ -78,6 +136,7 @@ main{
     align-items: center;
     justify-content: center;
     margin-bottom: 350px;
+    padding-top: 100px;
 }
 #about-vision-header{
     display: flex;
@@ -100,6 +159,10 @@ main{
     margin-bottom: 90px;
     font-size: 20px;
 }
+#about-heading > h2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
 #clicked-text > h2{
     font-size: 27px;
 }
@@ -121,7 +184,7 @@ main{
     height: 300px;
 }
 #gallery{
-    padding-top: 50px;
+    padding-top: 100px;
     margin-bottom: 300px;
 }
 .gallery{
@@ -130,7 +193,9 @@ main{
     justify-content: center;
 }
 #gallery-first > h2{
+    margin-left: 10px;
     margin-bottom: 100px;
+    margin-top: 10px;
 }
 #gallery-first > p{
     margin-bottom: 100px;
@@ -138,15 +203,25 @@ main{
 #sasi-intro{
     background: url('../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg');
     background-size: cover;
+    justify-content: center;
     position: relative;
-    padding: 300px;
+    padding: 400px;
 }
 #text-sasi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     font-size: 20px;
     color: whitesmoke;
     width: 50vw;
     background-color: transparent;
     padding: 30px 30px;
+}
+
+#text-sasi >p{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 #inner-sasi{
     display: flex;
@@ -154,7 +229,10 @@ main{
     justify-content: center;
 }
 #inner-sasi > h2{
+    margin-left: 50px;
     font-size: 100px;
+    margin-bottom: -20px;
+    
 }
 #inner-sasi > h2 > span{
     color: red;
@@ -163,7 +241,7 @@ main{
     height: 90px;
     margin-left: 20px;
 }
-#text-sasi > button{
+#sasi-button{
     padding: 20px;
     background: red;
     color: whitesmoke;
@@ -171,7 +249,7 @@ main{
     border: 0px;
     border-radius: 15px;
 }
-#text-sasi > button :hover{
+#text-sasi > button:hover{
     background: black;
     color: whitesmoke;
     cursor: pointer;
@@ -197,13 +275,14 @@ main{
 }
 #first-column-footer > h4{
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: -30px;
 }
 #first-column-footer > p{
-    padding-top: 30px;
+    padding-top: 40px;
     margin-bottom: 30px;
     font-size: 15px;
+    text-align: left;
 }
 #first-column-footer > div > button> img{
     height: 3vh;
@@ -217,8 +296,9 @@ main{
     text-align: left;
 }
 #second-column-footer > h4{
-    margin-bottom: 25px;
+    padding-top: 40px;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 #second-column-footer > a {
     margin: 10px 0px;
@@ -230,8 +310,9 @@ main{
     text-align: left;
 }
 #third-column-footer > h4{
+    padding-top: 40px;
     font-size: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 #third-column-footer > a {
     margin: 10px 0px;
@@ -257,3 +338,186 @@ main{
     padding-bottom: 30px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .nav-btn {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 1.8rem;
+      z-index: 1001;
+    }
+  
+    #nav {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: white;
+      padding-top: 2rem;
+      text-align: center;
+      z-index: 1000;
+    }
+  
+    #nav.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #nav a {
+      font-size: 20px;
+      margin: 15px;
+      text-decoration: none;
+      color: grey;
+      transition: color 0.3s;
+    }
+  
+    #nav a:hover {
+      color: black;
+    }
+
+  
+    #nav-btn {
+      padding: 5px;
+      cursor: pointer;
+      background: white;
+      border: none;
+      color: #000;
+      outline: none;
+    }
+    
+    #about-heading{
+        margin-top: 100px;
+    }
+    .vision-mission{
+        display: block;
+        padding-left: 30px;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-direction: column; 
+    }
+    .gallery > img {
+        width: 100%;
+    }
+    #inner-sasi > h2{
+        margin-top: -15px;
+    }
+    #first-footer {
+        padding: 30px ;
+        flex-direction: column;
+    }
+    
+    #first-column-footer,
+    #second-column-footer,
+    #third-column-footer {
+        margin-bottom: 20px;
+    }
+    #first-column-footer{
+        margin-top: 50px;
+    }
+  }
+  
+
+@media screen and (max-width: 1024px) {
+    .nav-btn {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 1.8rem;
+        z-index: 1001;
+      }
+    
+      #nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        padding-top: 2rem;
+        text-align: center;
+        z-index: 1000;
+      }
+    
+      #nav.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      #nav a {
+        font-size: 20px;
+        margin: 15px;
+        text-decoration: none;
+        color: grey;
+        transition: color 0.3s;
+      }
+    
+      #nav a:hover {
+        color: black;
+      }
+  
+    
+      #nav-btn {
+        padding: 5px;
+        cursor: pointer;
+        background: white;
+        border: none;
+        color: #000;
+        outline: none;
+      }
+    #hero-section {
+        padding: 200px 20px;
+        font-size: 18px;
+    }
+
+    #about {
+        padding-top: 50px;
+        font-size: 16px;
+    }
+    #about-heading{
+        margin-top: 100px;
+    }
+    .vision-mission{
+        display: block;
+        padding: 0px 30px;
+    }
+    .vision-mission-header{
+        padding-bottom: 20px;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column; 
+    }
+    .gallery > img {
+        max-width: 100%; 
+        height: auto;
+    }
+    #inner-sasi > h2{
+        margin-top: -15px;
+    }
+    #text-sasi{
+        margin-left: -80px;
+    }
+    #footer {
+        margin-top: 50px;
+    }
+
+    #second-footer > p {
+        padding-bottom: 50px;
+    }
+}

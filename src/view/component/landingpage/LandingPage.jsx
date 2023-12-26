@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import {React, useState, Component} from 'react';
+import { Link } from 'react-router-dom';
 import Joshiverse from '../../../assets/joshiverse.jpeg'
 import ImageIcon from '../../../assets/WhatsApp Image 2023-12-14 at 00.35.27.jpeg'
 import BackgroundImage from '../../../assets/mission.jpg'
@@ -11,67 +12,70 @@ import Instagram from '../../../assets/instagram.png'
 import Twitter from '../../../assets/x.png'
 import ScrollButton from './ScrollButton';
 
-
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import '../../../styles/landingpage/LandingPage.css';
 
 const LandingPage = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const [visibleText, setVisibleText] = useState(null);
-  const missionText = 
-  <div className='vision-mission'>
-    <div className='vision-mission-header'>
-      <p className='clicked-text-head'>Our Mission</p>
-      <p>There are many variations of passages of Lorem Ipsum available,
-          There are many variations of <br/>passages of Lorem Ipsum available,
-          many variations passages of Lorem available, 
-          and they try to<br/> hard work.</p>
-    </div>
-    <img src={BackgroundImage} alt='mission-icon'/>
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
 
-  </div>
-  const handleHeaderClick = (header) => {
-    if(header === 'VISION'){
-      setVisibleText(
-      <div className='vision-mission'>
-        <div className='vision-mission-header'>
-          <p className='clicked-text-head'>Our Vision</p>
-          <p>There are many variations of passages of Lorem Ipsum available,
-          There are many variations of <br/>passages of Lorem Ipsum available,
-          many variations passages of Lorem available, 
-          and they try to<br/> hard work.</p>
-        </div>
-        <img src={BackgroundImage} alt='vision-icon'/>
-      </div>)
-    }else if(header === 'MISSION'){
-      setVisibleText(null)
-    }
-  
-  
-  };
+
+  const year = ()=> {
+    const date = new Date();
+    return date.getFullYear()
+  }
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    initialSlide: 0,
+    
   };
+   
+  
 
+  
   
   return (
 
     <main>
       <div id='nav-bar'>
-        <div>
-          <img src={Joshiverse} alt='Icon' style={{height: "90px",width: '80px', borderRadius: '10px'}}/>
+        <div id='logo'>
+          <a href='#hero-section'><img src={Joshiverse} alt='Icon' style={{height: "90px",width: '80px', borderRadius: '10px'}}/></a>
         </div>
-        <div id='nav'>
-          <p className='nav-text'><a href='#about'>About</a></p>
-          <p className='nav-text'><a href='#gallery'>Gallery</a></p>
-          <p className='nav-text'><a href='#sasi-intro'>SASI</a></p>
+        <div id='nav' className={isMenuOpen ? 'open' : ''}>
+          <a href='#about' onClick={toggleMenu}>
+            About
+          </a>
+          <a href='#gallery' onClick={toggleMenu}>
+            Gallery
+          </a>
+          <a href='#sasi-intro' onClick={toggleMenu}>
+            SASI
+          </a>
+          <a href='#footer' onClick={toggleMenu}>
+            Contact
+          </a>
         </div>
+        <div className='nav-btn' onClick={toggleMenu} >
+          ☰
+        </div>
+        {isMenuOpen && (
+          <div id='nav-burger'>
+            <a href='#about'>About</a>
+            <a href='#gallery'>Gallery</a>
+            <a href='#sasi-intro'>SASI</a>
+            <a href='#footer'>Contact</a>
+          </div>
+)}
+        
       </div>
       <div id='hero-section'>
         <h2>Help The <span>People</span></h2>
@@ -86,19 +90,26 @@ const LandingPage = () => {
           <p>There are many variations of passages of Lorem Ipsum available, 
           but<br/> the majority have suffered alteration in some form</p>
         </div>
-        <div>
-          <div id='about-vision-header'>
-            <div id='clickers'>
-              <h2 className='vm' onClick={() => handleHeaderClick('VISION')} style={{cursor: "pointer"}}>Our Vision</h2>
-              <h2>/</h2>
-              <h2 className='vm' onClick={() => handleHeaderClick('MISSION')} style={{cursor: "pointer"}}>Our Mission</h2>
+        <div className='vision-mission'>
+          <div>
+            <div className='vision-mission-header'>
+              <p className='clicked-text-head'>Our Mission</p>
+              <p>There are many variations of passages of Lorem Ipsum available,
+                  There are many variations of <br/>passages of Lorem Ipsum available,
+                  many variations passages of Lorem available, 
+                  and they try to<br/> hard work.</p>
             </div>
-            <div id='clicked-text'>
-              {visibleText && <div>{visibleText}</div>}
-              {!visibleText && <div>{missionText}</div>}
+            <div className='vision-mission-header'>
+              <p className='clicked-text-head'>Our Vision</p>
+              <p>There are many variations of passages of Lorem Ipsum available,
+                  There are many variations of <br/>passages of Lorem Ipsum available,
+                  many variations passages of Lorem available, 
+                  and they try to<br/> hard work.</p>
             </div>
           </div>
-        
+          
+          <img src={BackgroundImage} alt='mission-icon'/>
+
         </div>
       </div>
       <ScrollButton targetIds={['about', 'gallery', 'footer']} />
@@ -177,17 +188,20 @@ const LandingPage = () => {
           </div>
           <p>It is a long established fact that a reader will be distracted by the readable content of<br/> a page when looking at its layout. 
           The point of using Lorem Ipsum is that it has a<br/> more-or-less normal distribution of letters, as opposed</p>
-          <button>Read More...</button>
+
+          <Link to='/sasi'>
+            <button id='sasi-button'>Read More...</button>
+          </Link>
         </div>
       </div>
       <ScrollButton targetIds={['about', 'gallery', 'footer']} />
       <div id='footer'>
         <div id='first-footer'>
           <div id='first-column-footer'>
-            <h4>ABOUT Joshiverse</h4>
-            <p>There are many variations of passages <br/>
-            of Lorem Ipsum available, but the.There<br/>
-              are many variations of passages</p>
+            <h4>ABOUT <span>Joshiverse</span></h4>
+            <p>There are many variations<br/> of passages 
+            of Lorem Ipsum<br/> available, but the.<br/>There
+              are many variations<br/> of passages</p>
             <div>
               <button><img src={Facebook} alt=''/></button>
               <button><img src={Youtube} alt='' /></button>
@@ -213,10 +227,9 @@ const LandingPage = () => {
           </div>
 
         </div>
-        {/* <button><img src={ArrowUp} alt='arrow'/></button> */}
         <div id='second-footer'>
-          <hr/>
-          <p>Copyright © Trust 2021 . ALL Right Reserved .</p>
+          <hr></hr>
+          <p>Copyright © Trust {year()} . ALL Right Reserved .</p>
         </div>
 
       </div>
