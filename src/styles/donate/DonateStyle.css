@@ -1,0 +1,85 @@
+.donate {
+    background: #d8d7d7;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+    height: 700px;
+}
+
+:root{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+
+.section-title > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #555;
+}
+
+.section-title p{
+    font-size: 20px;
+    color: #555;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.help-banner img{
+    margin-right: 50%;
+    margin-top: 50px;
+    width: 45%;
+}
+
+ .single-service h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: normal;
+    color: #555;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.column1{
+    margin-left: 20%;
+    margin-bottom: 70px;
+    margin-top: -450px;
+}
+.column2{
+    margin-left: 20%;
+    margin-bottom: 70px;
+}
+
+
+.column-sec1{
+    margin-left: 70%;
+    margin-bottom: 70px;
+    margin-top: -400px;
+    
+}
+.column-sec2{
+    margin-left: 70%;
+    margin-bottom: 70px;
+    
+}
+
+.single-service p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #777;
+}
+
+  
+
+
