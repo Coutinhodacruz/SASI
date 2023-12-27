@@ -24,7 +24,8 @@
     --bg-color: #051018;
     --second-bg-color: #112e42;
     --text-color: #ededed;
-    --main-color: #F8B864;;
+    --main-color: #F8B864;
+    --extra-color: #454444;
 }
 
 .navbar{
@@ -147,6 +148,12 @@ h2{
     color: var(--main-color);
     font-size: 35px;
     
+}
+
+@media (max-width: 1200px){
+  html{
+      font-size: 55%;
+  }
 }
 
 
