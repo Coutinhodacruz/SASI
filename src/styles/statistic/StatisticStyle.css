@@ -79,7 +79,7 @@ h2.counter {
 /* Mobile responsiveness */
 @media screen and (max-width: 767px) {
     .funfact-area {
-        height: 300px; /* Adjusted height for smaller screens */
+        height: 300px; 
     }
 
     h2.counter {
