@@ -4,7 +4,8 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding-bottom: 6rem;
+    margin-top: -80px;
+    /* padding-bottom: 6rem; */
 }
 
 .heading{
@@ -137,4 +138,61 @@ span{
 }
 .about-p3 h1{
     padding-right: 475px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .heading {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .about-content h3 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+    }
+
+    .about-content p {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .heading {
+        text-align: center;
+        left: 0;
+    }
+
+    .btn-box.btns {
+        width: auto;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .btn-box.btns img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Add more adjustments for smaller screens as needed */
+    .about-p,
+    .about-p2,
+    .about-p3 {
+        padding-right: 0;
+    }
+
+    .about-p h1,
+    .about-p2 h1,
+    .about-p3 h1 {
+        padding-right: 0;
+    }
+}
+
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
 }
