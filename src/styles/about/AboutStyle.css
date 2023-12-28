@@ -143,15 +143,15 @@ span{
 
 @media screen and (max-width: 767px) {
     .heading {
-        font-size: 2rem; /* Adjust font size for smaller screens */
+        font-size: 2rem; 
     }
 
     .about-content h3 {
-        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        font-size: 1.8rem; 
     }
 
     .about-content p {
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
+        font-size: 0.9rem; 
     }
 }
 
@@ -175,7 +175,6 @@ span{
         height: auto;
     }
 
-    /* Add more adjustments for smaller screens as needed */
     .about-p,
     .about-p2,
     .about-p3 {

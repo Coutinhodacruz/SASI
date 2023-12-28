@@ -107,23 +107,22 @@
 }
 
 
-
 /* Mobile responsiveness */
 @media screen and (max-width: 767px) {
     .donate {
-        padding-bottom: 2rem; /* Further reduced padding for smaller screens */
+        padding-bottom: 2rem;
     }
 
     .single-service h3 {
-        font-size: 18px; /* Adjusted font size for smaller screens */
+        font-size: 18px; 
     }
 
     .single-service p {
-        font-size: 14px; /* Adjusted font size for smaller screens */
+        font-size: 14px;
     }
 
     .help-banner img {
-        margin-top: 10px; /* Adjusted margin for smaller screens */
+        margin-top: 10px; 
     }
 }
 
