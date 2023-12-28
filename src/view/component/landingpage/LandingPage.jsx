@@ -94,15 +94,15 @@ const LandingPage = () => {
           <div>
             <div className='vision-mission-header'>
               <p className='clicked-text-head'>Our Mission</p>
-              <p>There are many variations of passages of Lorem Ipsum available,
-                  There are many variations of <br/>passages of Lorem Ipsum available,
+              <p>There are many variations of passages of Lorem Ipsum available, <br/>
+                  There are many variations of passages of Lorem Ipsum available,
                   many variations passages of Lorem available, 
                   and they try to<br/> hard work.</p>
             </div>
             <div className='vision-mission-header'>
               <p className='clicked-text-head'>Our Vision</p>
-              <p>There are many variations of passages of Lorem Ipsum available,
-                  There are many variations of <br/>passages of Lorem Ipsum available,
+              <p>There are many variations of passages of Lorem Ipsum available, <br/>
+                  There are many variations of passages of Lorem Ipsum available,
                   many variations passages of Lorem available, 
                   and they try to<br/> hard work.</p>
             </div>

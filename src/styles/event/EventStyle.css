@@ -14,6 +14,7 @@
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 6rem;
+    margin-top: -230px;
 }
 
 .heading{
@@ -107,28 +108,37 @@ img {
     border-radius: 2%;
 }
 
-a{
+
+
+/* .cause-info1 h3 a{
     outline: medium none;
     color: #686868;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin-left: 90px;
     
+} */
+
+.sec-row h3 a{
+    margin-left: 100px;
 }
+
 a {
     text-decoration: none;
 }
 
 .cause-info1 p {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 24px;
-    color: #777777;
-    margin-bottom: 15px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 24px;
+        color: #777777;
+        margin-bottom: 15px;
+        display: block;
+        text-align: center;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
 }
 .cause-info2 p {
     font-size: 14px;
@@ -137,6 +147,7 @@ a {
     color: #777777;
     margin-bottom: 15px;
     display: block;
+    text-align: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -149,6 +160,7 @@ a {
     color: #777777;
     margin-bottom: 15px;
     display: block;
+    text-align: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -205,9 +217,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    margin-left: 50%;
+
 }
-
-
 
 
 button {
@@ -219,7 +231,7 @@ button {
 
 .theme-bg {
     background: var(--main-color);
-    margin-right: 50%;
+    margin-left: 50%;
 }
 
 .button {
