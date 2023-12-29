@@ -103,7 +103,7 @@
 .content h2{
 
     font-size: 35px;
-    padding-left: 50px;
+    padding-left: 40%;
     margin-top: 9%;
     letter-spacing: 2px;
 }
@@ -146,67 +146,38 @@ h2{
  
 .content .child{
     color: var(--main-color);
-    font-size: 35px;
-    
+    font-size: 35px;   
 }
 
-@media (max-width: 1200px){
-  html{
-      font-size: 55%;
+@media screen and (max-width: 767px) {
+  .content {
+      width: 90%;
   }
-}
 
-
-/* @media only screen and (max-width: 768px) {
-    .home {
-      height: auto;
-    }
-  
-    .header {
-      padding: 1rem 5%;
-    }
-  
-    .navbar {
-      margin-left: 0;
-    }
-  
-    .navbar a {
-      font-size: 18px;
-      margin-left: 1rem;
-    }
-  
-    .content {
-      width: 80%;
-      top: 20%;
-      margin-left: 10%;
-    }
-  
-    .content h2 {
-      font-size: 30px;
-      padding-left: 20px;
-    }
-  
-    .content .par {
-      padding-left: 10px;
-    }
-  
-    .content .cn {
-      width: 140px;
-      height: 50px;
+  .navbar a {
       font-size: 16px;
-      margin-right: 30%;
-    }
-  
-    .content .ch,
-    .content .ch2 {
-      font-size: 50px;
-    }
-  
-    .content .child {
-      font-size: 25px;
-    }
   }
-   */
+
+  .header {
+      padding: 0.5rem;
+  }
+
+  .content h2 {
+      font-size: 20px;
+  }
+
+  .content .par {
+      padding: 0 10px 15px;
+  }
+
+  .content .ch,
+  .content .ch2,
+  .content .child {
+      font-size: 25px;
+  }
+}
+
+
 
 
 

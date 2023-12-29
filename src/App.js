@@ -2,9 +2,9 @@ import './App.css';
 import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import HomPage from './view/component/homepage/HomPage.jsx';
 import LandingPage  from './view/component/landingpage/LandingPage.jsx'
-import About from './view/component/about/About.jsx';
-import Event from './view/component/event/Event.jsx';
-// import Statistcs from './view/component/statistic/Statistic.jsx';
+import About from './view/component/about/About';
+import Event from './view/component/event/Event.jsx'
+import Statistic from './view/component/statistic/Statistic.jsx';
 import Donate from './view/component/donate/Donate.jsx';
 import Contact from './view/component/contact/Contact.jsx';
 
@@ -18,10 +18,10 @@ function App() {
           <>
             <HomPage/>
             <About/>
-            <Event/>
-            {/* <Statistcs/> */}
-            <Donate/>
-            <Contact/>
+            <Event />
+            <Statistic />
+            <Donate />
+            <Contact />
           </>
         }>
         </Route>

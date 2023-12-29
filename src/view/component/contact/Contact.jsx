@@ -1,14 +1,15 @@
 import React from 'react'
-import '../../../styles/contact/ContactStyle.css'
+import   '../../../styles/contact/ContactStyle.css'
 
 const Contact = () => {
   return (
     <section className="contact" id="contact">
+      
+      <form id="contactForm">
       <h2 className="heading">
         Contact <span>Me</span>
         <span className="animate scroll" ></span>
       </h2>
-      <form id="contactForm">
         <div className="input-box">
           <div className="input-field">
             <input type="text" placeholder="Full Name" id="fullName" required />

@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../assets/image/stat.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../assets/image/stat.jpg);
     height: 450px;
 }
 
@@ -53,12 +53,48 @@ h2.counter {
 .project-count > span {
     color: #fff;
     font-size: 20px;
-    margin-left: 170px;
+    margin-left: 145px;
     
 }
 
 .project-count h2 {
     margin-left: 130px;
     margin-top: 100px;
+}
+
+@media (max-width: 767px){
+    .pt-120 {
+        padding-top: 70px;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    .pb-90 {
+        padding-bottom: 40px;
+    }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 767px) {
+    .funfact-area {
+        height: 300px; 
+    }
+
+    h2.counter {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .project-count>span {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .project-count h2 {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
 }
 

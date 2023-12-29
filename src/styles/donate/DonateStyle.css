@@ -11,6 +11,10 @@
     --bs-gutter-y: 0;
 }
 
+.section-title{
+    text-align: center;
+}
+
 .section-title > h2 {
     font-size: 40px;
     font-weight: bold;
@@ -47,24 +51,24 @@
 }
 
 .column1{
-    margin-left: 20%;
+    margin-left: 50%;
     margin-bottom: 70px;
     margin-top: -450px;
 }
 .column2{
-    margin-left: 20%;
+    margin-left: 50%;
     margin-bottom: 70px;
 }
 
 
 .column-sec1{
-    margin-left: 70%;
+    margin-left: 80%;
     margin-bottom: 70px;
     margin-top: -400px;
     
 }
 .column-sec2{
-    margin-left: 70%;
+    margin-left: 80%;
     margin-bottom: 70px;
     
 }
@@ -78,6 +82,48 @@
     font-weight: normal;
     line-height: 24px;
     color: #777;
+}
+
+@media (max-width: 767px){
+    .donate {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .column1{
+        margin-bottom: 30px;
+    }
+    .column2 {
+        margin-bottom: 30px;
+    }
+    .column-sec1 {
+        margin-bottom: 30px;
+    }
+    .column-sec2 {
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+/* Mobile responsiveness */
+@media screen and (max-width: 767px) {
+    .donate {
+        padding-bottom: 2rem;
+    }
+
+    .single-service h3 {
+        font-size: 18px; 
+    }
+
+    .single-service p {
+        font-size: 14px;
+    }
+
+    .help-banner img {
+        margin-top: 10px; 
+    }
 }
 
   
