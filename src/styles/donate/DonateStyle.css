@@ -84,7 +84,25 @@
     color: #777;
 }
 
-@media (max-width: 767px){
+@media (max-width: 991px){
+    .header{
+        padding: 2rem 4%;
+    }
+
+   section {
+        padding: 10rem 4% 2rem;
+    }
+
+    .home{
+        padding: 0 4%;
+    }
+
+    .footer{
+        padding: 2rem 4%;
+    }
+}
+
+@media (max-width: 991px){
     .donate {
         padding: 70px 0;
     }
@@ -108,7 +126,7 @@
 
 
 /* Mobile responsiveness */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .donate {
         padding-bottom: 2rem;
     }
@@ -123,6 +141,35 @@
 
     .help-banner img {
         margin-top: 10px; 
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .column1,
+    .column2,
+    .column-sec1,
+    .column-sec2 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .help-banner img {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate {
+        padding-bottom: 4rem;
+    }
+    
+    .column1,
+    .column2,
+    .column-sec1,
+    .column-sec2 {
+        margin-bottom: 30px;
     }
 }
 

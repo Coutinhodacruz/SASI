@@ -70,3 +70,66 @@ const Donate = () => {
 };
 
 export default Donate;
+
+
+
+// import React from 'react';
+
+// const Donate = () => {
+//   return (
+//     <div className="help-area ptb-120 gray-bg">
+//       <div className="container">
+//         <div className="section-title text-center mb-75">
+//           <h2>How Can You Help</h2>
+//           <div className="icon-img">
+//             <img src="assets/img/icon-img/1.png" alt="" />
+//           </div>
+//           <p>There are many variations of azer duskam of Lorem Ipsum available,</p>
+//         </div>
+//         <div className="row">
+//           <div className="col-lg-6 col-md-12">
+//             <div className="help-banner" data-overlay="15">
+//               <img src="assets/img/banner/1.jpg" alt="" />
+//             </div>
+//           </div>
+//           <div className="col-lg-6 col-md-12">
+//             <div className="help-services">
+//               <div className="row">
+//                 <div className="col-lg-6 col-md-6 col-sm-6 text-center mb-65">
+//                   <div className="single-service">
+//                     <i className="icon-wallet"></i>
+//                     <h3>Send Donation</h3>
+//                     <p>There are many variations of passages of Lorem Ipsum available,</p>
+//                   </div>
+//                 </div>
+//                 <div className="col-lg-6 col-md-6 col-sm-6 text-center mb-65">
+//                   <div className="single-service">
+//                     <i className="icon-profile-male"></i>
+//                     <h3>Become Volunteer</h3>
+//                     <p>There are many variations of passages of Lorem Ipsum available,</p>
+//                   </div>
+//                 </div>
+//                 <div className="col-lg-6 col-md-6 col-sm-6 text-center">
+//                   <div className="single-service mrg-30">
+//                     <i className="icon-gift"></i>
+//                     <h3>Make A Gift</h3>
+//                     <p>There are many variations of passages of Lorem Ipsum available,</p>
+//                   </div>
+//                 </div>
+//                 <div className="col-lg-6 col-md-6 col-sm-6 text-center">
+//                   <div className="single-service">
+//                     <i className="icon-camera"></i>
+//                     <h3>Through Media</h3>
+//                     <p>There are many variations of passages of Lorem Ipsum available,</p>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Donate;
