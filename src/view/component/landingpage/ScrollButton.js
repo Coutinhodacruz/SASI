@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ArrowUp from '../../../assets/icons8-arrow-up.gif'
+import '../../../styles/landingpage/LandingPage.css'
 
 const ScrollButton = ({ targetIds }) => {
   const [showButton, setShowButton] = useState(false);
@@ -40,7 +41,7 @@ const ScrollButton = ({ targetIds }) => {
 
   return (
     showButton && (
-      <button style={buttonStyle} className="scroll-button" onClick={scrollToTop}>
+      <button id='scroll-button' style={buttonStyle} className="scroll-button" onClick={scrollToTop}>
         <img src={ArrowUp} alt="arrow" />
       </button>
     )
