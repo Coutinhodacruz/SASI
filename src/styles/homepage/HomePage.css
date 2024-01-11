@@ -28,12 +28,12 @@
     --extra-color: #454444;
 }
 
-.navbar{
+#navbar{
     position: relative;
     margin-left: 45%;
 }
 
-.navbar a{
+#navbar a{
     font-size: 25px;
     color: var(--text-color);
     font-weight: 500;
@@ -43,9 +43,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar a:hover{
+#navbar a:hover{
     color: var(--main-color);
     cursor: pointer;
+}
+#nav-burger{
+    display: none;
+}
+.nav-btn {
+    display: none; 
+    cursor: pointer;
+    font-size: 24px;
+    color: white; 
 }
 
 .logo img{
@@ -154,8 +163,8 @@ h2{
       width: 90%;
   }
 
-  .navbar a {
-      font-size: 16px;
+  #navbar {
+      display: none;
   }
 
   .header {
@@ -175,6 +184,58 @@ h2{
   .content .child {
       font-size: 25px;
   }
+  .main{
+    width: 100%;
+    top: 0;
+    position: fixed;
+  }
+  .nav-btn {
+    display: block;
+    color: white;
+    margin-left: 80%;
+    margin-top: 20px;
+    }
+    #nav-burger{
+        visibility: hidden;
+    }
+    #navbar.open {
+        display: flex;
+    }
+    #navbar {
+        display: none; /* Hide the navigation links by default on smaller screens */
+        flex-direction: column;
+        position: absolute;
+        top: 70px; /* Adjust the top position as needed */
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+    }
+    
+    #nav-burger {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 70px; /* Adjust the top position as needed */
+        right: 10px;
+        background-color: white;
+        padding: 10px;
+        z-index: 2;
+    }
+    
+    #nav-burger > a {
+        color: black; /* Change text color to a suitable color */
+        text-decoration: none;
+    }
+   
+    #navbar a{
+        color: black;
+    }
+    .logo{
+        margin-top: 15px;
+    }
+    
 }
 
 
