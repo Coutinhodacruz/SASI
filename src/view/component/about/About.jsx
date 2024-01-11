@@ -5,7 +5,7 @@ import grow from "../../../assets/image/grow.jpg";
 const About = () => {
   return (
     <section className="about" id="about">
-      <h2 className="heading">
+      <h2 className="about-heading">
         About <span>Us</span>
       </h2>
       <div className="about-content">

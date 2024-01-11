@@ -75,13 +75,10 @@
 }
 
 
-
-
-
-
-
 /* Mobile responsiveness */
+
 @media screen and (max-width: 767px) {
+
     .help-banner img {
         margin-top: 10px;
         width: 100%; 
@@ -95,6 +92,35 @@
         gap: 100px;
     }
    
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .column1,
+    .column2,
+    .column-sec1,
+    .column-sec2 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .help-banner img {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate {
+        padding-bottom: 4rem;
+    }
+    
+    .column1,
+    .column2,
+    .column-sec1,
+    .column-sec2 {
+        margin-bottom: 30px;
+    }
 }
 
   

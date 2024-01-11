@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="contact" id="contact">
       
       <form id="contactForm">
-      <h2 className="heading">
+      <h2 className="contact-heading">
         Contact <span>Me</span>
         <span className="animate scroll" ></span>
       </h2>
