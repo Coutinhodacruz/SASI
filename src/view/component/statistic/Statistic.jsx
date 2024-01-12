@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import StacticStyle from '../../../styles/statistic/StatisticStyle.css';
+import React, { useState } from "react";
+import '../../../styles/statistic/StatisticStyle.css';
 import { Waypoint } from 'react-waypoint';  
 
 const Statistic = () => {

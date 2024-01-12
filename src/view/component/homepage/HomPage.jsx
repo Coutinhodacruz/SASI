@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import {React, useState} from "react";
 import "../../../styles/homepage/HomePage.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { FaBars } from "react-icons/fa"; // Import the FaBars icon
 import sasi from "../../../assets/image/sasi.jpg";
 
 const HomPage = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
   return (
     <section className="home">
       <header
@@ -20,42 +19,33 @@ const HomPage = () => {
             <img src={sasi} alt="Logo" />
           </Link>
         </div>
-        <div className={`main ${isMobileMenuOpen ? "active" : ""}`}>
-          <nav className="navbar">
-            <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              duration={300}
-              className="active"
-              onClick={toggleMobileMenu}>
+        <div className="main">
+          <nav id="navbar" className={isMenuOpen ? 'open' : ''}>
+            <Link to="home" spy={true} smooth={true} duration={300} className="active" onClick={toggleMenu} >
               Home
             </Link>
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={300}
-              onClick={toggleMobileMenu}>
+            <Link to="about" spy={true} smooth={true} duration={300} onClick={toggleMenu} >
               About
             </Link>
-            <Link
-              to="event"
-              spy={true}
-              smooth={true}
-              duration={500}
-              onClick={toggleMobileMenu}>
+            <Link to="event" spy={true} smooth={true} duration={500} onClick={toggleMenu} >
               Event
             </Link>
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-              onClick={toggleMobileMenu}>
+            <Link to="contact" spy={true} smooth={true} duration={500} onClick={toggleMenu} >
+
               Contact
             </Link>
           </nav>
+          <div className='nav-btn' onClick={toggleMenu} style={{color: 'white'}} >
+            ☰
+          </div>
+          {isMenuOpen && (
+            <div id='nav-burger'>
+              <a href='#home'>Home</a>
+              <a href='#about'>About</a>
+              <a href='#event'>Event</a>
+              <a href='#contact'>Contact</a>
+            </div>
+          )}
         </div>
         <div className="nav-btn" onClick={toggleMobileMenu}>
           ☰

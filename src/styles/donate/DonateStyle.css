@@ -1,18 +1,31 @@
 .donate {
+    padding: 100px 0px;
     background: #d8d7d7;
     flex-direction: column;
     gap: 2rem;
-    padding-bottom: 6rem;
-    height: 700px;
 }
 
 :root{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
 
 .section-title{
     text-align: center;
+
 }
 
 .section-title > h2 {
@@ -34,114 +47,51 @@
     font-weight: 400;
 }
 
-.help-banner img{
-    margin-right: 50%;
-    margin-top: 50px;
-    width: 45%;
+.esther{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
-
- .single-service h3{
-    font-family: 'Courier New', Courier, monospace;
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.single-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.single-service > h3{
     font-size: 25px;
-    font-weight: normal;
-    color: #555;
-    margin-top: 0px;
-    font-style: normal;
-    font-weight: 400;
 }
-
-.column1{
-    margin-left: 50%;
-    margin-bottom: 70px;
-    margin-top: -450px;
-}
-.column2{
-    margin-left: 50%;
-    margin-bottom: 70px;
-}
-
-
-.column-sec1{
-    margin-left: 80%;
-    margin-bottom: 70px;
-    margin-top: -400px;
-    
-}
-.column-sec2{
-    margin-left: 80%;
-    margin-bottom: 70px;
-    
-}
-
-.single-service p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: normal;
-    line-height: 24px;
-    color: #777;
-}
-
-@media (max-width: 991px){
-    .header{
-        padding: 2rem 4%;
-    }
-
-   section {
-        padding: 10rem 4% 2rem;
-    }
-
-    .home{
-        padding: 0 4%;
-    }
-
-    .footer{
-        padding: 2rem 4%;
-    }
-}
-
-@media (max-width: 991px){
-    .donate {
-        padding: 70px 0;
-    }
-}
-
-@media (max-width: 767px){
-    .column1{
-        margin-bottom: 30px;
-    }
-    .column2 {
-        margin-bottom: 30px;
-    }
-    .column-sec1 {
-        margin-bottom: 30px;
-    }
-    .column-sec2 {
-        margin-bottom: 30px;
-    }
-    
+.single-service > p{
+    font-size: 15px;
 }
 
 
 /* Mobile responsiveness */
-@media screen and (max-width: 991px) {
-    .donate {
-        padding-bottom: 2rem;
-    }
 
-    .single-service h3 {
-        font-size: 18px; 
-    }
-
-    .single-service p {
-        font-size: 14px;
-    }
+@media screen and (max-width: 767px) {
 
     .help-banner img {
-        margin-top: 10px; 
+        margin-top: 10px;
+        width: 100%; 
     }
+    
+    .esther{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+   
 }
 
 /* Media Queries */

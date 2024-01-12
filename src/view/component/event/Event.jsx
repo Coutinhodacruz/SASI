@@ -1,5 +1,5 @@
 import React from "react";
-import EventStyle from "../../../styles/event/EventStyle.css";
+import "../../../styles/event/EventStyle.css";
 import eventpc1 from "../../../assets/image/eventpc1.jpg";
 import eventpc2 from "../../../assets/image/eventpc2.jpg"
 import eventpc3 from "../../../assets/image/eventpc3.jpg"
