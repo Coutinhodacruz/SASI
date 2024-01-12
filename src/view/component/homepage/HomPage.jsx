@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../../styles/homepage/HomePage.css";
-import { Link, animateScroll as scroll } from 'react-scroll';
-import { FaBars } from 'react-icons/fa';  // Import the FaBars icon
+import { Link, animateScroll as scroll } from "react-scroll";
+import { FaBars } from "react-icons/fa"; // Import the FaBars icon
 import sasi from "../../../assets/image/sasi.jpg";
 
 const HomPage = () => {
@@ -13,39 +13,61 @@ const HomPage = () => {
 
   return (
     <section className="home">
-      <header className={`header ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+      <header
+        className={`header ${isMobileMenuOpen ? "mobile-menu-open" : ""}`}>
         <div className="home-logo">
           <Link to="home" spy={true} smooth={true} duration={300}>
             <img src={sasi} alt="Logo" />
           </Link>
         </div>
-        <div className={`main ${isMobileMenuOpen ? 'active' : ''}`}>
+        <div className={`main ${isMobileMenuOpen ? "active" : ""}`}>
           <nav className="navbar">
-            <Link to="home" spy={true} smooth={true} duration={300} className="active" onClick={toggleMobileMenu}>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={300}
+              className="active"
+              onClick={toggleMobileMenu}>
               Home
             </Link>
-            <Link to="about" spy={true} smooth={true} duration={300} onClick={toggleMobileMenu}>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={300}
+              onClick={toggleMobileMenu}>
               About
             </Link>
-            <Link to="event" spy={true} smooth={true} duration={500} onClick={toggleMobileMenu}>
+            <Link
+              to="event"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={toggleMobileMenu}>
               Event
             </Link>
-            <Link to="contact" spy={true} smooth={true} duration={500} onClick={toggleMobileMenu} >
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={toggleMobileMenu}>
               Contact
             </Link>
           </nav>
         </div>
-        <div className='nav-btn' onClick={toggleMobileMenu} >
+        <div className="nav-btn" onClick={toggleMobileMenu}>
           ☰
         </div>
         {isMobileMenuOpen && (
-          <div id='nav-burger'>
-            <a href=''>Home</a>
-            <a href=''>About</a>
-            <a href=''>Event</a>
-            <a href=''>Contact</a>
+          <div id="nav-burger">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Event</a>
+            <a href="">Contact</a>
           </div>
-)}
+        )}
       </header>
       <div className="content">
         <h2>

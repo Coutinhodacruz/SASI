@@ -17,8 +17,8 @@
     margin-top: -230px;
 }
 
-.heading{
-    position: relative;
+.event-heading{
+    /* position: relative; */
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: right;
@@ -27,6 +27,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-transform: capitalize;
+    margin-top: 350px;
 }
 
 .event-content{
@@ -62,10 +63,6 @@
 
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
 .sec-row{
     padding-right: calc(var(--bs-gutter-x) * .6);
     padding-left: calc(var(--bs-gutter-x) * .6);
@@ -75,11 +72,11 @@
     width: 100%;
 }
 
-img, svg {
+.single-causes img {
     vertical-align: middle;
 }
 
-img {
+.single-causes img  {
     overflow-clip-margin: content-box;
     overflow: clip;
 } 
@@ -110,22 +107,36 @@ img {
 
 
 
-/* .cause-info1 h3 a{
+.cause-info1 h3 a{
     outline: medium none;
     color: #686868;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-left: 90px;
     
-} */
+}
+.cause-info2 h3 a{
+    outline: medium none;
+    color: #686868;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 90px;
+    
+}
+.cause-info3 h3 a{
+    outline: medium none;
+    color: #686868;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 90px;
+    
+}
 
 .sec-row h3 a{
     margin-left: 100px;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 .cause-info1 p {
         font-size: 14px;

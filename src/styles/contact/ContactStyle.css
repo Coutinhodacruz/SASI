@@ -1,3 +1,17 @@
+.contact-heading{
+    /* position: relative; */
+    font-size: 3rem;
+    margin-right: -190px;
+    margin-bottom: 3rem;
+    /* text-align: center; */
+    left: 20%;
+    color: #383636;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
 
 .contact{
     min-height: auto;
@@ -112,9 +126,9 @@
 }
 
 @media (max-width: 767px) {
-    .contact form .input-box .input-field {
-        width: 100%;
-    }
+    /* .contact form .input-box .input-field {
+        width: 30%;
+    } */
 
     .contact form .btn-box.btns .btn {
         margin: 1rem 0;

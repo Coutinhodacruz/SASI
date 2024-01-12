@@ -12,14 +12,18 @@
     position: relative;
     font-size: 3rem;
     margin-bottom: 3rem;
+    margin-top: 95px;
     text-align: right;
-    left: 20%;
+    /* left: 20%; */
     color: #383636;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-transform: capitalize;
 
 }
+/* .about-heading h2{
+    margin-bottom: 5rem;
+} */
 
 span{
     color: var(--main-color);

@@ -7,7 +7,7 @@ import eventpc3 from "../../../assets/image/eventpc3.jpg"
 const Event = () => {
   return (
     <section className="event" id="event">
-      <h2 className="heading">Event</h2>
+      <h2 className="event-heading">Event</h2>
       <div className="event-content">
         <h3>Latest Causes</h3>
         <p className="p">
