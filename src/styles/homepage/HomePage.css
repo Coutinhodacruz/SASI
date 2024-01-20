@@ -29,12 +29,12 @@
     --extra-color: #454444;
 }
 
-.navbar{
+#navbar{
     position: relative;
     margin-left: 50%;
 }
 
-.navbar a{
+#navbar > a{
     font-size: 25px;
     color: var(--text-color);
     font-weight: 500;
@@ -44,27 +44,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar a:hover{
+#navbar a:hover{
     color: var(--main-color);
     cursor: pointer;
 }
 
-.home-logo img{
+.image img{
     float: left;
-    width: 10%;
-    height: 50px;
+    width: 15%;
+    height: 90px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.home-logo{
-  margin-top: -1.5%;
-}
-
-.header{
+header{
     position: fixed;
     top: 0;
-    left: 0;
+    left: 5px;
     width: 100%;
     padding: 2rem 9%;
     z-index: 100;
@@ -74,9 +70,10 @@
     align-items: center;
 }
 
-.header {
+
+header {
   background: var(--bg-color);
-  height: 10%;
+  /* height: 10%; */
 }
 
 .content{
@@ -162,12 +159,7 @@
  
   
 @media (max-width: 991px){
-    .header{
-        padding: 2rem 4%;
-        max-width: 540px;
-    }
-
-   section {
+       section {
         padding: 10rem 4% 2rem;
     }
 
@@ -200,20 +192,6 @@
   .content {
       width: 90%;
   }
-
-  .navbar a {
-      font-size: 16px;
-  }
-
-  .home-logo{
-   width: 150%;
-   
-  }
-
-  .header {
-      padding: 0.5rem;
-  }
-
   .content h2 {
       font-size: 20px;
   }
@@ -221,10 +199,7 @@
   .content .par {
       padding: 0 10px 15px;
   }
-  /* .par{
-    margin-right: 0px;
-  } */
-
+  
   .content .ch,
   .content .ch2,
   .content .child {
@@ -235,68 +210,67 @@
   }
 }
 
-
-
-
-.nav-btn {
-    display: none;
-  }
-  
-  /* Show the menu icon on smaller screens */
-  @media (max-width: 767px) {
-    .navbar {
-      display: none; /* Hide the regular navbar on smaller screens */
+@media only screen and (max-width: 767px) {
+    #navbar{
+        width: 100vw;
+        top: 0;
+        position: fixed;
+        padding-right: 50px;
+        padding-left: 10px;
+        
+    
     }
-  
     .nav-btn {
-      display: block; /* Show the menu icon on smaller screens */
-      cursor: pointer;
+        display: block;
+        margin-left: 100%;
+    
     }
-  
-    /* Add your styles for the mobile menu here */
-    .navbar.mobile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: var(--bg-color);
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      z-index: 99;
-      padding: 10px;
+    #nav-burger{
+        visibility: hidden;
     }
-  
-    .navbar.mobile a {
-      margin: 10px;
+    .image > img{
+        width: 15vw;
+        height: 10vh;
     }
-  }
-  
-
+    
+    nav{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px; 
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        color: black;
+    }
+    #navbar > a{
+        color: black;
+    }
+    nav.open {
+        display: flex;
+    }
+    
     #nav-burger {
         display: flex;
         flex-direction: column;
         gap: 10px;
         position: absolute;
-        top: 70px; /* Adjust the top position as needed */
+        top: 70px; 
         right: 10px;
-        background-color: white;
         padding: 10px;
         z-index: 2;
     }
     
     #nav-burger > a {
-        color: black; /* Change text color to a suitable color */
+        color: black; 
         text-decoration: none;
     }
-   
-    #navbar a{
-        color: black;
-    }
-    .logo{
-        margin-top: 15px;
+    header{
+        max-width: 100%;
     }
     
+}
 
 
 

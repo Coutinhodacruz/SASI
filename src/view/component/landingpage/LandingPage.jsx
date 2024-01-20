@@ -112,7 +112,7 @@ const LandingPage = () => {
 
         </div>
       </div>
-      <ScrollButton className='scroll' targetIds={['about', 'gallery', 'footer']} />
+      <ScrollButton className='scroll' targetIds={['about', 'gallery', 'footer']}  />
       <div id='gallery'>
         <div id='gallery-first'>
           <h2 className='headings'>Joshiverse Gallery</h2>
