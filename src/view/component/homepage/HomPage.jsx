@@ -12,56 +12,64 @@ const HomPage = () => {
 
   return (
     <section className="home">
-      <header className={`header ${isMenuOpen ? "mobile-menu-open" : ""}`}>
-        <div className="home-logo">
-          <Link to="home" spy={true} smooth={true} duration={300}>
-            <img src={sasi} alt="Logo" />
+      <header >
+        {/* <div className="home-logo"> */}
+        <Link to="home" spy={true} smooth={true} duration={300} className="image">
+          <img src={sasi} alt="Logo"  />
+        </Link>
+        {/* </div> */}
+        {/* <div className="main"> */}
+        <nav id="navbar" className={isMenuOpen ? "open" : ""}>
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={300}
+            className="active"
+            onClick={toggleMenu}
+          >
+            Home
           </Link>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={300}
+            onClick={toggleMenu}
+          >
+            About
+          </Link>
+          <Link
+            to="event"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Event
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={toggleMenu}
+          >
+            Contact
+          </Link>
+        </nav>
+        <div className="nav-btn" onClick={toggleMenu} style={{ color: "white" }}>
+          ☰
         </div>
-        <div className="main">
-          <nav id="navbar" className={isMenuOpen ? "open" : ""}>
-            <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              duration={300}
-              className="active"
-              onClick={toggleMenu}
-            >
-              Home
-            </Link>
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={300}
-              onClick={toggleMenu}
-            >
-              About
-            </Link>
-            <Link
-              to="event"
-              spy={true}
-              smooth={true}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Event
-            </Link>
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Contact
-            </Link>
-          </nav>
-          <div className="nav-btn" onClick={toggleMenu} style={{ color: "white" }}>
-            ☰
+        {isMenuOpen && (
+          <div id='nav-burger'>
+            <a href='#home'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#event'>Event</a>
+            <a href='#contact'>Contact</a>
           </div>
-        </div>
+        )}
+        {/* </div> */}
       </header>
       <div className="content">
         <h2>
