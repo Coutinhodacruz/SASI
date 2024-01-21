@@ -135,6 +135,7 @@ main{
     background: url(../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg);
     display: flex;
     flex-direction: column;
+    transform-style: preserve-3d;
     align-items: center;
     justify-content: center;
     padding: 300px;
