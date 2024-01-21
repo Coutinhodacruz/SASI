@@ -51,10 +51,12 @@
 
 .image img{
     float: left;
-    width: 15%;
-    height: 90px;
+    width: 10%;
+    height: 50px;
     border-radius: 10px;
+    margin-top: -20px;
     cursor: pointer;
+   
 }
 
 header{
@@ -73,7 +75,7 @@ header{
 
 header {
   background: var(--bg-color);
-  /* height: 10%; */
+  height: 10%; 
 }
 
 .content{
@@ -230,7 +232,8 @@ header {
     }
     .image > img{
         width: 15vw;
-        height: 10vh;
+        height: 7vh;
+        margin-top: -10px;
     }
     
     nav{
