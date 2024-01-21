@@ -31,8 +31,8 @@ const ScrollButton = ({ targetIds }) => {
     position: 'fixed',
     bottom: '20px',
     right: '20px',
-    backgroundColor: 'transparent', // Example background color
-    color: '#fff', // Example text color
+    backgroundColor: 'transparent', // 
+    color: '#fff', 
     border: 'none',
     borderRadius: '50%',
     padding: '10px',
