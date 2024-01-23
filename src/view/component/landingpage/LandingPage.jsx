@@ -96,17 +96,11 @@ const LandingPage = () => {
           <div>
             <div className='vision-mission-header'>
               <p className='clicked-text-head'>Our Mission</p>
-              <p className='p'>There are many variations of passages of Lorem Ipsum available, <br/>
-                  There are many variations of passages of Lorem Ipsum available,
-                  many variations passages of Lorem available, 
-                  and they try to<br/> hard work.</p>
+              <p className='p'>To empower passionate learners, enable them to grow professionally and build leadership competence.</p>
             </div>
             <div className='vision-mission-header'>
               <p className='clicked-text-head'>Our Vision</p>
-              <p className='p'>There are many variations of passages of Lorem Ipsum available, <br/>
-                  There are many variations of passages of Lorem Ipsum available,
-                  many variations passages of Lorem available, 
-                  and they try to<br/> hard work.</p>
+              <p className='p'>Enablers of continuous decentralized learning without barriers</p>
             </div>
           </div>
           
