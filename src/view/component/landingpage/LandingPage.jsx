@@ -89,14 +89,14 @@ const LandingPage = () => {
           <h2 className='headings'>About Joshiverse</h2>
           <p>Joshiverse is both an advocacy for continuous learning and a community of people <br />
            who are passionate about learning, growth and leadership.
-          We believe that everyone, <br /> irrespective of their socioeconomic status deserves 
-          access to opportunities that enables these key areas.</p>
+           We believe that everyone, <br /> irrespective of their socioeconomic status deserves 
+           access to opportunities that enables these key areas.</p>
         </div>
         <div className='vision-mission'>
           <div>
             <div className='vision-mission-header'>
               <p className='clicked-text-head'>Our Mission</p>
-              <p className='p'>To empower passionate learners, enable them to grow professionally and build leadership competence.</p>
+              <p className='p'>To empower passionate learners, enable them to grow professionally <br /> and build leadership competence.</p>
             </div>
             <div className='vision-mission-header'>
               <p className='clicked-text-head'>Our Vision</p>
