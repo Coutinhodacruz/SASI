@@ -101,7 +101,7 @@
 .btn-box.btns .btn{
     width: 170px;
     height: 60px;
-    margin-left: -170%;
+    margin-left: 5%;
     background: var(--main-color);
     font-size: 22px;
     border-radius: 50px;
@@ -132,5 +132,10 @@
 
     .contact form .btn-box.btns .btn {
         margin: 1rem 0;
+    }
+
+    .btn-box.btns .btn{
+        width: 30%;
+        
     }
 }
