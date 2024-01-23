@@ -87,8 +87,10 @@ const LandingPage = () => {
       <div id='about'>
         <div id='about-heading'>
           <h2 className='headings'>About Joshiverse</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, 
-          but<br/> the majority have suffered alteration in some form</p>
+          <p>Joshiverse is both an advocacy for continuous learning and a community of people <br />
+           who are passionate about learning, growth and leadership.
+          We believe that everyone, <br /> irrespective of their socioeconomic status deserves 
+          access to opportunities that enables these key areas.</p>
         </div>
         <div className='vision-mission'>
           <div>
