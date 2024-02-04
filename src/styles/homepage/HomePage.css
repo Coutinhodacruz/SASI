@@ -10,6 +10,7 @@
     outline: none;
     scroll-behavior: smooth;
     
+    
 }
 
 
@@ -63,7 +64,7 @@
 header{
     position: fixed;
     top: 0;
-    left: 5px;
+    /* left: 2px; */
     width: 100%;
     padding: 2rem 9%;
     z-index: 100;
@@ -77,6 +78,7 @@ header{
 header {
   background: var(--bg-color);
   height: 10%; 
+  
 }
 
 .content{

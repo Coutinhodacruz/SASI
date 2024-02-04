@@ -56,7 +56,7 @@ main{
 #hero-section{
     padding: 300px;
     position: relative;
-    background: url(../../assets/high-resolution.jpg);
+    background: url(../../assets/image/IMG_0188.JPG);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -130,10 +130,11 @@ main{
 .gallery > img{
     width: 400px;
     margin-right: 10px;
+    height: 250px;
 }
 #sasi-intro{
     margin-top: 100px;
-    background: url(../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg);
+    background: url(../../assets/image/IMG_0199.JPG);
     display: flex;
     flex-direction: column;
     transform-style: preserve-3d;
@@ -190,13 +191,17 @@ main{
     justify-content: center;
     gap: 100px;
 }
+#first-column-footer{
+    width: 400px;
+}
 #first-column-footer > div > button> img{
     width: 20px;
 }
 #first-column-footer > div > button{
-    padding: 3px;
+    /* padding: 5px; */
     margin-right: 20px;
     cursor: pointer;
+    border-radius: 30px;
 }
 #first-column-footer > div{
     margin-top: 15px;
@@ -207,6 +212,7 @@ main{
 #first-column-footer > p{
     font-size: 15px;
     margin-top: 10px;
+    text-wrap: balance;
 }
 #second-column-footer , #third-column-footer{
     margin-top: -10px;
@@ -363,6 +369,9 @@ main{
 }
 #second-footer{
     margin-top: 30px;
+}
+#first-column-footer{
+    margin-left: 200px;
 }
 #first-column-footer > div > button{
     cursor: pointer;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../styles/about/AboutStyle.css";
-import grow from "../../../assets/image/grow.jpg";
+import grow from "../../../assets/image/sasi-image/aboutUs.jpg";
 
 const About = () => {
   return (
@@ -12,11 +12,9 @@ const About = () => {
         <h3>
           Grow Up Humanity
         </h3>
-      <p className="p">
-        There are many variations of azer duskam of Lorem Ipsum available, but
-        the majority have <br /> suffered alteration in some form, by injected
-        humour,
-      </p>
+      {/* <p className="p">
+      [SASI] we are driven by a singular mission: to make a positive difference in the world by empowering <br /> communities, uplifting individuals, and fostering sustainable change.
+      </p> */}
       </div>
       <div className="about-p">
         <p>
@@ -30,7 +28,7 @@ const About = () => {
       </div>
       <div className="about-p2">
         <p>
-          <h1>Our Vission</h1>
+          <h1>Our Vision</h1>
           We are always delighted to support these schools with variety of materials to enhance the learning experience of the learners,<br />
           expand their educational horizon, and boost their fighting chance for a bright future and afford them a competitive advantage in these 
           technological times.

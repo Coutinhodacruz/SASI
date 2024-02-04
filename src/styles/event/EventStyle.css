@@ -68,8 +68,8 @@
     padding-left: calc(var(--bs-gutter-x) * .6);
 }
 
-.single-causes img {
-    width: 100%;
+.single-cause img {
+    width: 370px;
 }
 
 .single-causes img {
@@ -80,11 +80,12 @@
     overflow-clip-margin: content-box;
     overflow: clip;
 } 
+
 .cause-info1{
     background-color: #fff;
     box-shadow: 0 5px 5px rgba(42, 39, 39, 0.2);
     width: 100%;
-    height: 250px;
+    height: 240px;
     margin-right: -90px;
     border-radius: 2%;
 }
@@ -113,14 +114,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-left: 90px;
-    
+    /* right: 20px; */
+   
 }
+
 .cause-info2 h3 a{
     outline: medium none;
-    color: #686868;
+    color: #d90e0e;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin-left: 90px;
+    margin-left: 90px;  
     
 }
 .cause-info3 h3 a{

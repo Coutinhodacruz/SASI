@@ -1,6 +1,7 @@
 import React from "react";
 import hand from "../../../assets/image/hand.png";
-import help from "../../../assets/image/help.jpg";
+// import help from "../../../assets/image/help.jpg";
+import donate from "../../../assets/image/sasi-image/donate2.jpg"
 import "../../../styles/donate/DonateStyle.css";
 import { FaWallet, FaUser, FaGift, FaCamera } from "react-icons/fa";
 
@@ -16,13 +17,14 @@ const Donate = () => {
             <img src={hand} alt="" />
           </div>
           <p className="p">
-            There are many variations of azer duskam of Lorem Ipsum available,
+            Your support is crucial in helping us achieve our mission and make a
+            meaningful impact on the lives of those in need.
           </p>
         </div>
         <div className="esther">
           <div className="col-help">
             <div className="help-banner">
-              <img src={help} alt="" />
+              <img src={donate} alt="" />
             </div>
           </div>
           <div className="columns">
@@ -31,16 +33,16 @@ const Donate = () => {
                 <FaWallet size={40} style={iconStyle} />
                 <h3>Send Donation </h3>
                 <p>
-                  There are many variations of passages <br /> of Lorem Ipsum
-                  available,
+                  Your generous donations enable us to fund <br />
+                  our programs and reach more communities in need.
                 </p>
               </div>
               <div className="single-service">
                 <FaUser size={40} style={iconStyle} />
                 <h3>Become Volunteer</h3>
                 <p>
-                  There are many variations of passages <br /> of Lorem Ipsum
-                  available,
+                  Join us in our efforts by volunteering your <br />
+                  time and skills. Whether it's through hands-on projects
                 </p>
               </div>
             </div>
@@ -49,31 +51,27 @@ const Donate = () => {
                 <FaGift size={40} style={iconStyle} />
                 <h3>Make A Gift</h3>
                 <p>
-                  There are many variations of passages <br /> of Lorem Ipsum
-                  available,
+                  Your gift will directly support our mission and <br />
+                  make a tangible difference in the lives of those we serve.
                 </p>
               </div>
               <div className="single-service">
                 <FaCamera size={40} style={iconStyle} />
                 <h3>Through Media</h3>
                 <p>
-                  There are many variations of passages <br /> of Lorem Ipsum
-                  available,
+                  Help us raise awareness about our cause by sharing <br /> our
+                  mission with your friends, family, and networks.
                 </p>
               </div>
             </div>
           </div>
-          
         </div>
-        
       </div>
     </section>
   );
 };
 
 export default Donate;
-
-
 
 // import React from 'react';
 
