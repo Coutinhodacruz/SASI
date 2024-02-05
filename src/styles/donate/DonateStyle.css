@@ -1,6 +1,6 @@
 .donate {
     padding: 100px 0px;
-    background: #d8d7d7;
+    background: #f7f4f4;
     flex-direction: column;
     gap: 2rem;
 }
@@ -45,6 +45,12 @@
     margin-top: 0px;
     font-style: normal;
     font-weight: 400;
+}
+
+.help-banner img{
+    width: 100%;
+    height: fit-content;
+    border-radius: 2%;
 }
 
 .esther{

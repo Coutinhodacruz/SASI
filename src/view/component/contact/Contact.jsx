@@ -7,7 +7,7 @@ const Contact = () => {
       
       <form id="contactForm">
       <h2 className="contact-heading">
-        Contact <span>Me</span>
+        Contact <span>Us</span>
         <span className="animate scroll" ></span>
       </h2>
         <div className="input-box">
