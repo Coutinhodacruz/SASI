@@ -54,7 +54,7 @@ const LandingPage = () => {
           <a className='nav-a' href='#about' onClick={toggleMenu}>
             About
           </a>
-          <a className='nav-a'href='#gallery' onClick={toggleMenu}>
+          <a className='nav-a' href='#gallery' onClick={toggleMenu}>
             Gallery
           </a>
           <a className='nav-a' href='#sasi-intro' onClick={toggleMenu}>

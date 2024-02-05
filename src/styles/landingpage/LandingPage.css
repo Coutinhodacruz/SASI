@@ -3,6 +3,7 @@ main{
     padding-top: 80px;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     
 }
 #nav-bar {
@@ -132,13 +133,12 @@ main{
 }
 #sasi-intro{
     margin-top: 100px;
-    background: url(../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg);
+    background: url('../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg');
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 300px;
-    padding-left: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -154,15 +154,16 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 #sasi-button{
     background-color: red;
     color: white;
     margin-top: 30px;
-    padding: 30px 60px;
+    padding: 15px 30px;
     border-radius: 18px;
     font-size: 25px;
+    cursor: pointer;
 }
 #sasi-intro > p{
     color: white;
