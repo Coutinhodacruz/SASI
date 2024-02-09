@@ -1,3 +1,5 @@
+
+
 .about{
     display: flex;
     justify-content: center;
@@ -52,7 +54,7 @@ span{
     margin-top: 30px;
 }
 
-.btn-box.btns{
+.about-image {
     display: inline-block;
     width: 30rem;
     padding-left: 340px;
@@ -61,9 +63,11 @@ span{
      
 }
 
-.btn-box.btns img{
+.about-image img{
     width: 450%;
     height: 450px;
+    border-radius: 2%;
+    margin-top: -90px;
 }
 
 .about-p h1{
@@ -186,14 +190,14 @@ span{
         left: 0;
     }
 
-    .btn-box.btns {
-        width: auto;
-        padding-left: 0;
-        margin-left: 0;
-        margin-top: 0;
-    }
+        .about-image {
+            width: auto;
+            padding-left: 0;
+            margin-left: 0;
+            margin-top: 0;
+        }
 
-    .btn-box.btns img {
+    .about-image img {
         width: 100%;
         height: auto;
     }

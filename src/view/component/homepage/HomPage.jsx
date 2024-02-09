@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../../../styles/homepage/HomePage.css";
 import { Link } from "react-scroll";
-import sasi from "../../../assets/image/sasi.jpg";
+import sasi from "../../../assets/image/sasi-icon.png";
+
 
 const HomPage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,9 +81,8 @@ const HomPage = () => {
         </span>{" "}
         <br />
         <p className="par">
-          There are many variations of passages of Lorem Ipsum available, <br />
-          but the majority have suffered alteration in some form.
-          <br />
+        we believe in the power of compassion and collective action to make 
+        a positive difference in the world.
         </p>
         <button className="cn">
           <a href="#d">Donate Now</a>

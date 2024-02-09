@@ -47,6 +47,7 @@ main{
     font-size: 18px;
 }
 
+
 .nav-btn {
     display: none; 
     cursor: pointer;
@@ -56,7 +57,7 @@ main{
 #hero-section{
     padding: 300px;
     position: relative;
-    background: url(../../assets/high-resolution.jpg);
+    background: url(../../assets/image/IMG_0188.JPG);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -130,12 +131,14 @@ main{
 .gallery > img{
     width: 400px;
     margin-right: 10px;
+    height: 250px;
 }
 #sasi-intro{
     margin-top: 100px;
-    background: url('../../assets/WhatsApp\ Image\ 2023-12-14\ at\ 00.34.13.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/image/IMG_0199.JPG);
     display: flex;
     flex-direction: column;
+    transform-style: preserve-3d;
     align-items: center;
     justify-content: center;
     padding: 300px;
@@ -148,7 +151,8 @@ main{
 #inner-sasi > h2{
    font-size: 100px;
    color: white;
-   margin-right: 10px;
+   text-align: center;
+   /* margin-right: 10px; */
 }
 #inner-sasi {
     display: flex;
@@ -189,13 +193,17 @@ main{
     justify-content: center;
     gap: 100px;
 }
+#first-column-footer{
+    width: 400px;
+}
 #first-column-footer > div > button> img{
     width: 20px;
 }
 #first-column-footer > div > button{
-    padding: 3px;
+    /* padding: 5px; */
     margin-right: 20px;
     cursor: pointer;
+    border-radius: 30px;
 }
 #first-column-footer > div{
     margin-top: 15px;
@@ -206,6 +214,7 @@ main{
 #first-column-footer > p{
     font-size: 15px;
     margin-top: 10px;
+    text-wrap: balance;
 }
 #second-column-footer , #third-column-footer{
     margin-top: -10px;
@@ -346,11 +355,16 @@ main{
     width: 300px;
     font-size: 15px;
 }
+#inner-sasi{
+    
+}
 #inner-sasi > h2{
     font-size: 60px;
+    margin-left: 150px;
 }
 #inner-sasi > img{
     width: 120px;
+    margin-bottom: 20px;
 }
 #sasi-button{
     padding: 20px;
@@ -359,9 +373,21 @@ main{
 #first-footer{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#first-column-footer > p{
+    width: 200px;
+}
+#first-column-footer > div > button{
+    width: 30px;
+    padding: 2px;
 }
 #second-footer{
     margin-top: 30px;
+}
+#first-column-footer{
+    margin-left: 200px;
 }
 #first-column-footer > div > button{
     cursor: pointer;

@@ -10,6 +10,7 @@
     outline: none;
     scroll-behavior: smooth;
     
+    
 }
 
 
@@ -42,6 +43,7 @@
     transition: .3s;
     bottom: 40%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 #navbar a:hover{
@@ -51,16 +53,18 @@
 
 .image img{
     float: left;
-    width: 15%;
-    height: 90px;
+    width: 10%;
+    height: 50px;
     border-radius: 10px;
+    margin-top: -20px;
     cursor: pointer;
+   
 }
 
 header{
     position: fixed;
     top: 0;
-    left: 5px;
+    /* left: 2px; */
     width: 100%;
     padding: 2rem 9%;
     z-index: 100;
@@ -73,7 +77,8 @@ header{
 
 header {
   background: var(--bg-color);
-  /* height: 10%; */
+  height: 10%; 
+  
 }
 
 .content{
@@ -230,7 +235,8 @@ header {
     }
     .image > img{
         width: 15vw;
-        height: 10vh;
+        height: 7vh;
+        margin-top: -10px;
     }
     
     nav{
@@ -271,27 +277,3 @@ header {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
