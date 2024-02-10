@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Joshiverse from "../../../assets/joshiverse.jpeg";
 import ImageIcon from "../../../assets/WhatsApp Image 2023-12-14 at 00.35.27.jpeg";
 import BackgroundImage from "../../../assets/mission.jpg";
-import Image1 from "../../../assets/image/sasi-image/IMG_0199.JPG";
+import Image1 from "../../../assets/image/sasi-image/busola.JPG";
 import newimage from "../../../assets/image/newimage.jpg";
 import Image2 from "../../../assets/image/sasi-image/second_sasi.JPG";
 import Image3 from "../../../assets/image/sasi-image/IMG_0190.JPG";
@@ -131,8 +131,8 @@ const LandingPage = () => {
         <div id="gallery-first">
           <h2 className="headings">Joshiverse Gallery</h2>
           <p>
-            Welcome to the gallery section of JOSHIVERSE where we share
-            visual stories of hope, <br />
+            Welcome to the gallery section of JOSHIVERSE where we share visual
+            stories of hope, <br />
             resilience, and positive change. Explore the images below to see the
             impact of our work in action:
           </p>

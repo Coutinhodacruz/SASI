@@ -14,7 +14,7 @@
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 6rem;
-    margin-top: -230px;
+    margin-top: -290px;
 }
 
 .event-heading{
@@ -88,6 +88,7 @@
     height: 240px;
     margin-right: -90px;
     border-radius: 2%;
+    margin-bottom: 8%;
 }
 .cause-info2{
     background-color: #fff;
@@ -120,7 +121,7 @@
 
 .cause-info2 h3 a{
     outline: medium none;
-    color: #d90e0e;
+    color: #686868;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-left: 90px;  
@@ -136,7 +137,7 @@
 }
 
 .sec-row h3 a{
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 
