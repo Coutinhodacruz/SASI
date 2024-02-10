@@ -3,6 +3,7 @@ main{
     padding-top: 80px;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     
 }
 #nav-bar {
@@ -134,14 +135,13 @@ main{
 }
 #sasi-intro{
     margin-top: 100px;
-    background: url(../../assets/image/sasi-image/busola.JPG);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/image/IMG_0199.JPG);
     display: flex;
     flex-direction: column;
     transform-style: preserve-3d;
     align-items: center;
     justify-content: center;
     padding: 300px;
-    padding-left: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -151,21 +151,23 @@ main{
 #inner-sasi > h2{
    font-size: 100px;
    color: white;
-   margin-right: 10px;
+   text-align: center;
+   /* margin-right: 10px; */
 }
 #inner-sasi {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 #sasi-button{
     background-color: red;
     color: white;
     margin-top: 30px;
-    padding: 30px 60px;
+    padding: 15px 30px;
     border-radius: 18px;
     font-size: 25px;
+    cursor: pointer;
 }
 #sasi-intro > p{
     color: white;
@@ -353,11 +355,16 @@ main{
     width: 300px;
     font-size: 15px;
 }
+#inner-sasi{
+    
+}
 #inner-sasi > h2{
     font-size: 60px;
+    margin-left: 150px;
 }
 #inner-sasi > img{
     width: 120px;
+    margin-bottom: 20px;
 }
 #sasi-button{
     padding: 20px;
@@ -366,6 +373,15 @@ main{
 #first-footer{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#first-column-footer > p{
+    width: 200px;
+}
+#first-column-footer > div > button{
+    width: 30px;
+    padding: 2px;
 }
 #second-footer{
     margin-top: 30px;

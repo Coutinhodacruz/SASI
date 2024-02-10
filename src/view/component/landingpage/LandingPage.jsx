@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import Joshiverse from "../../../assets/joshiverse.jpeg";
-import ImageIcon from "../../../assets/WhatsApp Image 2023-12-14 at 00.35.27.jpeg";
+import ImageIcon from "../../../assets/image/sasi-icon.png";
 import BackgroundImage from "../../../assets/mission.jpg";
 import Image1 from "../../../assets/image/sasi-image/busola.JPG";
 import newimage from "../../../assets/image/newimage.jpg";
@@ -39,7 +39,7 @@ const LandingPage = () => {
     autoplay: true,
     autoplaySpeed: 1000,
   };
-
+  
   return (
     <main>
       <div id="nav-bar">
@@ -207,7 +207,7 @@ const LandingPage = () => {
           <h2 className="headings">
             SA<span>SI</span>
           </h2>
-          <img src={ImageIcon} alt="" />
+          <img style={{borderRadius: '10px'}} src={ImageIcon} alt="" />
         </div>
         <p>
           SASI (Share a Smile Initiative) is an expression of Joshiverse, that
