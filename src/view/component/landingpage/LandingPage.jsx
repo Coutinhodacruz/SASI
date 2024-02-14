@@ -3,15 +3,33 @@ import { Link } from "react-router-dom";
 import Joshiverse from "../../../assets/joshiverse.jpeg";
 import ImageIcon from "../../../assets/image/sasi-icon.png";
 import BackgroundImage from "../../../assets/mission.jpg";
-import Image1 from "../../../assets/image/sasi-image/IMG_0199.JPG";
+import Image1 from "../../../assets/image/sasi-image/busola.JPG";
 import newimage from "../../../assets/image/newimage.jpg";
-import Image2 from "../../../assets/image/sasi-image/second_sasi.JPG";
-import Image3 from "../../../assets/image/sasi-image/IMG_0190.JPG";
+import Image2 from "../../../assets/image/sasi-image/p10.JPG";
+import Image3 from "../../../assets/image/sasi-image/p13.JPG";
 import Facebook from "../../../assets/facebook.png";
 import Youtube from "../../../assets/youtube.png";
 import Instagram from "../../../assets/instagram.png";
 import Twitter from "../../../assets/x.png";
 import ScrollButton from "./ScrollButton";
+import Image4 from "../../../assets/image/sasi-image/p1.jpg";
+import Image5 from "../../../assets/image/sasi-image/p7.jpg";
+import Image6 from "../../../assets/image/sasi-image/p15.JPG";
+import Image7 from "../../../assets/image/sasi-image/p9.jpg";
+import Image8 from "../../../assets/image/sasi-image/p12.JPG";
+import Image9 from "../../../assets/image/sasi-image/p11.JPG";
+import Image10 from "../../../assets/image/sasi-image/p14.jpg";
+import Image11 from "../../../assets/image/sasi-image/p6.jpg";
+import Image12 from "../../../assets/image/sasi-image/p16.jpg";
+import Image13 from "../../../assets/image/sasi-image/p8.jpg";
+import Image14 from "../../../assets/image/sasi-image/p5.jpg";
+import Image15 from "../../../assets/image/sasi-image/p21.jpg";
+import Image16 from "../../../assets/image/sasi-image/p20.jpg";
+import Image17 from "../../../assets/image/sasi-image/p19.JPG";
+import Image18 from "../../../assets/image/sasi-image/p18.jpg";
+import Image19 from "../../../assets/image/sasi-image/p3.jpg";
+import Image20 from "../../../assets/image/sasi-image/p4.jpg";
+import Image21 from "../../../assets/image/sasi-image/p22.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -39,7 +57,7 @@ const LandingPage = () => {
     autoplay: true,
     autoplaySpeed: 1000,
   };
-  
+
   return (
     <main>
       <div id="nav-bar">
@@ -85,8 +103,8 @@ const LandingPage = () => {
         <h1>
           Grow up <span>humanity</span> & <span>kindness</span>
         </h1>
-        <p>There are many variations of passages of Lorem Ipsum available,</p>
-        <p>but the majority have suffered alteration in some form.</p>
+        {/* <p>There are many variations of passages of Lorem Ipsum available,</p>
+        <p>but the majority have suffered alteration in some form.</p> */}
       </div>
       <ScrollButton
         className="scroll"
@@ -131,8 +149,8 @@ const LandingPage = () => {
         <div id="gallery-first">
           <h2 className="headings">Joshiverse Gallery</h2>
           <p>
-            Welcome to the gallery section of JOSHIVERSE where we share
-            visual stories of hope, <br />
+            Welcome to the gallery section of JOSHIVERSE where we share visual
+            stories of hope, <br />
             resilience, and positive change. Explore the images below to see the
             impact of our work in action:
           </p>
@@ -145,54 +163,55 @@ const LandingPage = () => {
                 <img src={newimage} alt="" />
                 <img src={Image2} alt="" />
                 <img src={Image3} alt="" />
+                {/* <img src={Image1} alt="" /> */}
               </div>
             </div>
 
             <div className="gallery-slide">
               <div className="gallery">
-                <img src={Image1} alt="" />
-                <img src={Image2} alt="" />
-                <img src={Image3} alt="" />
+                <img src={Image4} alt="" />
+                <img src={Image5} alt="" />
+                <img src={Image6} alt="" />
               </div>
             </div>
 
             <div className="gallery-slide">
               <div className="gallery">
-                <img src={Image1} alt="" />
-                <img src={Image2} alt="" />
-                <img src={Image3} alt="" />
+                <img src={Image7} alt="" />
+                <img src={Image8} alt="" />
+                <img src={Image9} alt="" />
               </div>
             </div>
 
             <div className="gallery-slide">
               <div className="gallery">
-                <img src={Image1} alt="" />
-                <img src={Image2} alt="" />
-                <img src={Image3} alt="" />
+                <img src={Image10} alt="" />
+                <img src={Image11} alt="" />
+                <img src={Image12} alt="" />
               </div>
             </div>
 
             <div className="gallery-slide">
               <div className="gallery">
-                <img src={Image1} alt="" />
-                <img src={Image2} alt="" />
-                <img src={Image3} alt="" />
+                <img src={Image13} alt="" />
+                <img src={Image14} alt="" />
+                <img src={Image15} alt="" />
               </div>
             </div>
 
             <div className="gallery-slide">
               <div className="gallery">
-                <img src={Image1} alt="" />
-                <img src={Image2} alt="" />
-                <img src={Image3} alt="" />
+                <img src={Image16} alt="" />
+                <img src={Image17} alt="" />
+                <img src={Image18} alt="" />
               </div>
             </div>
 
             <div className="gallery-slide">
               <div className="gallery">
-                <img src={Image1} alt="" />
-                <img src={Image2} alt="" />
-                <img src={Image3} alt="" />
+                <img src={Image19} alt="" />
+                <img src={Image20} alt="" />
+                <img src={Image21} alt="" />
               </div>
             </div>
           </Slider>
@@ -207,7 +226,7 @@ const LandingPage = () => {
           <h2 className="headings">
             SA<span>SI</span>
           </h2>
-          <img style={{borderRadius: '10px'}} src={ImageIcon} alt="" />
+          <img style={{ borderRadius: "10px" }} src={ImageIcon} alt="" />
         </div>
         <p>
           SASI (Share a Smile Initiative) is an expression of Joshiverse, that
