@@ -21,14 +21,14 @@ import Image9 from "../../../assets/image/sasi-image/p11.JPG";
 import Image10 from "../../../assets/image/sasi-image/p14.jpg";
 import Image11 from "../../../assets/image/sasi-image/p6.jpg";
 import Image12 from "../../../assets/image/sasi-image/p16.jpg";
-import Image13 from "../../../assets/image/sasi-image/p8.jpg";
+import Image13 from "../../../assets/image/sasi-image/p23.JPG";
 import Image14 from "../../../assets/image/sasi-image/p5.jpg";
 import Image15 from "../../../assets/image/sasi-image/p21.jpg";
 import Image16 from "../../../assets/image/sasi-image/p20.jpg";
 import Image17 from "../../../assets/image/sasi-image/p19.JPG";
 import Image18 from "../../../assets/image/sasi-image/p18.jpg";
-import Image19 from "../../../assets/image/sasi-image/p3.jpg";
-import Image20 from "../../../assets/image/sasi-image/p4.jpg";
+import Image19 from "../../../assets/image/sasi-image/aboutUs.jpg";
+import Image20 from "../../../assets/image/sasi-image/give.JPG";
 import Image21 from "../../../assets/image/sasi-image/p22.png";
 
 import "slick-carousel/slick/slick.css";
@@ -50,7 +50,7 @@ const LandingPage = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 700,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     // initialSlide: 0,
@@ -163,7 +163,6 @@ const LandingPage = () => {
                 <img src={newimage} alt="" />
                 <img src={Image2} alt="" />
                 <img src={Image3} alt="" />
-                {/* <img src={Image1} alt="" /> */}
               </div>
             </div>
 
